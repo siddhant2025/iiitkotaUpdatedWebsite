@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css" class="css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.red {
+    width: 100%;
+    height: 540px;
+    opacity: 0.6;
+
+}
+
+.list ul {
+    border: 2x solid red;
+    background-color: rgb(37, 7, 237);
+    border-radius: 10px;
+    width: 90%;
+    height: 80px;
+}
+
+.list ul {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    list-style: none;
+    margin: 15px;
+}
+
+.list ul li {
+    padding: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    overflow: hidden;
+
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover {
+    color: rgb(237, 207, 10);
+    text-decoration: underline;
+}
+
+img {
+    height: 40px;
+}
+
+h1 {
+
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 55px;
+}
+
+p {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    margin: 39px 20px;
+
+}
+
+.first {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 20px;
+    margin: 3px 30px;
+    background-color: #dfd9d9;
+    width: 40%;
+}
+
+.second {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 20px;
+    margin: 3px 30px;
+    background-color: #dfd9d9;
+    width: 45%;
+}
+
+.first h3 {
+    text-align: center;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+.img1 {
+    height: 252px;
+    width: 95%;
+    margin: auto;
+
+}
+
+.img2 {
+    height: 100px;
+    display: block;
+
+    margin: auto;
+}
+
+footer {
+
+    background-color: #4e4646;
+    /* height: 340px; */
+    overflow: hidden;
+}
+
+.foot1 {
+    margin: 39px 40px;
+}
+
+.foot2 {
+    margin: 35px 20px;
+}
+
+.foot2 li {
+    color: white;
+    padding: 4px;
+}
+
+.foot1 li {
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.foot2 li:hover {
+    font-weight: bolder;
+    color: yellow;
+}
+
+table{
+    margin: 15px;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+h5{
+    text-align: center;
+font-size: 25px;
+background-color: yellow;
+}
+    </style>
+</head>
+
+<body>
+    <div> <img class="red" src="https://images.shiksha.com/mediadata/images/1613559249phpiS5AFM.jpeg" alt="" srcset="">
+    </div>
+    <div class="list">
+        <ul>
+            <li><img src="https://iiitkota.ac.in/static/media/logo.b831a251.png" alt="" class="src"></li>
+            <li><a href="#">ABOUT US</a></li>
+            
+            <li><a href="#">ADMISSION</a></li>
+          
+            <li><a href="#">ACADEMICS</a></li>
+            <li><a href="#">PLACEMENT</a></li>
+            
+        </ul>
+    </div>
+
+    <h1>Indian Institute of Information Technology Kota <br>
+        भारतीय सूचना प्रौद्योगिकी संस्थान कोटा <br>
+        (An Institute of National Importance under an Act of Parliament) <br></h1>
+        <hr>
+    <h2>Welcome to Indian Institute of Information Technology</h2>
+
+    </div>
+    <section>
+        <div class="first">
+            <h5>ABOUT IIIT</h5>
+            <img class="img1" src="https://iiitkota.ac.in/static/media/4.d00af0f8.png" alt="">
+            <p id="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tenetur asperiores ratione? Eligendi reprehenderit sequi odit, nam facere consequatur temporibus nesciunt voluptate eos nostrum dolores nobis minus recusandae in beatae vitae rerum ducimus blanditiis praesentium maxime iure quia quam voluptates non! Fugit ut dignissimos tempore animi aperiam dolorem nisi ab placeat nemo ipsa dicta eum reiciendis sequi, doloremque eligendi magnam?</p>
+        </div>
+        <div class="second">
+            <h5>DIRECTOR MESSAGE</h5>
+            <img class="img2" src="https://iiitkota.ac.in/static/media/director.6064270d.png" alt="">
+            <p id="secondpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, eum! Perspiciatis, quam similique! Asperiores, enim. Harum iusto architecto vero? A suscipit sunt, libero, tempore sint labore tenetur debitis dolor quasi quia tempora nisi nulla quidem iure laboriosam facere exercitationem accusamus impedit consectetur autem! Velit ut commodi quis suscipit impedit natus voluptates amet culpa ex possimus. Magnam, soluta illum. Laborum voluptates rem explicabo minima, soluta mollitia, ea necessitatibus hic consectetur aliquid fugiat voluptatibus? Minus ipsam ipsum laudantium illum fuga, nam possimus, velit porro nihil unde odio quis officiis repudiandae exercitationem, voluptatum modi. Eligendi et accusamus necessitatibus, provident doloremque praesentium id soluta.</p>
+        </div>
+    </section>
+    <h5>INSTITUTE BACKGROUND</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eos tempora optio sapiente assumenda ullam vero fuga porro, neque ratione, nihil omnis deserunt aperiam quas reiciendis quod amet aspernatur. Hic earum magni aliquid, voluptates nam sed. Aut totam cupiditate necessitatibus esse ab nobis quo voluptatum omnis ullam, sint delectus unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio veniam debitis at, ratione porro doloremque cumque, exercitationem nesciunt nihil repudiandae numquam beatae earum autem sed! Veniam id maiores ducimus magni?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ab quasi esse voluptatibus, modi quisquam tempora expedita ad. Unde dolores dolorum rem? Earum, minus in.</p>
+
+        <article>
+            <h5>OUR PAST PLACEMENT RECORD</h5>
+            <table style="width: 100%;">
+                <tr>
+                    
+                    <th>BRANCH</th>
+                    <th>MAXIMUM PACKAGE</th>
+                    <th>AVERAGE PACKAGE</th>
+                    <th>PLACEMENT %</th>
+                </tr>
+                <tr>
+        
+                    <th>CSE</th>
+                    <td>82 LPA</td>
+                    <td>15.6LPA</td>
+                    <td>94.85%</td>
+                </tr>
+                <tr>
+                    <th>ECE</th>
+                    <td>70LPA</td>
+                    <td>12LPA</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <th>TOTAL</th>
+                    <td>75LPA</td>
+                    <td>13.7LPA</td>
+                    <td>93.56%</td>
+                </tr>
+              
+            </table>
+     
+            
+           
+    
+        
+      
+        </article>
+
+    <footer>
+        <div style="display: flex; flex-wrap: wrap;">
+        <div class="foot1">
+             <hr style=" color:rgb(245, 239, 239);">
+            <li> Malaviya National Institute of Technology <br> Jaipur <br>
+                Jawahar Lal Nehru Marg,<br>
+                Jaipur-302017 (Rajasthan) INDIA <br>
+                webmaster[at]mnit.ac.in <br></li>
+                <hr style=" color:rgb(245, 239, 239);">
+           
+        </div>
+        <div class="foot2">
+            <ol>
+                <hr style=" color:rgb(245, 239, 239);">
+                <li>Right To Information Cell</li>
+                <li>Public Grievance</li>
+                <li>CVC Portal</li>
+                <li>ICC (Women Cell)</li>
+                <li>SC/ST/PWD/OBC Cell</li>
+                <li>Anti-Ragging Campaign</li>
+                <hr style=" color:rgb(245, 239, 239);">
+            </ol>
+        </div>
+        <div class="foot2">
+            <ol>
+                <hr style=" color:rgb(245, 239, 239);">
+                <li>Ministry of Education</li>
+                <li>Council of NITSER</li>
+                <li>CCMT</li>
+                <li>CCMN</li>
+                <li>CSAB</li>
+                <li>DASA</li>
+                <hr style=" color:rgb(245, 239, 239);">
+            </ol>
+        </div>
+        <div class="foot2">
+            <ol>
+                <hr style=" color:rgb(245, 239, 239);">
+                <li>Ministry of Education</li>
+                <li>Council of NITSER</li>
+                <li>CCMT</li>
+                <li>CCMN</li>
+                <li>CSAB</li>
+                <li>DASA</li>
+            </ol>
+            <hr style=" color:rgb(245, 239, 239);">
+        </div>
+        <div class="foot2">
+            <ol>
+                <hr style=" color:rgb(245, 239, 239);">
+                <li>Intranet Portal</li>
+                <li>GST Registration Detail</li>
+                <li>Emergency Numbers</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy for Online Fee Payment</li>
+                <li>Holidays</li>
+            </ol>
+            <hr style=" color:rgb(245, 239, 239);">
+        </div>
+    </div>
+        <hr style=" color:rgb(245, 239, 239);">
+        <h4>Disclaimer: Copyright © 2022 Malaviya National Institute of Technology Jaipur</h4>
+    </footer>
+
+</body>
+
+</html>
